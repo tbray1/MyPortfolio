@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'Hi, My name is Tarius Bray and i recently found a passion for building web applications. Im comftorable working with front end technologies such as HTML, CSS, and JS(Typescript). I have also been using java for 3+ years professionaly.',
   paragraphTwo:
-    'I have worked as a QA engineer for 4 years, mostly writing automation test suites using java. Currently im seeking to leaverage my strong knowledge/experience in quality and user experience to develop high quality software. Check out some of my latest work below. ',
+    'I have worked as a QA engineer for 4 years, mostly writing automation test suites using java.',
   paragraphThree:
     'Check out some of my latest work below. Please dont hesitate to reach out if my skills align with your business needs.',
   // if no resume, the button will not show up
