@@ -45,7 +45,7 @@ export const projectsData = [
     title: 'Wikipedia Search App ',
     info:
       'This application takes user input and fetches data from Wikipedia api based on the given input.',
-    info2: 'Tech Stack- ReactJS(Functional Components, Hooks, JSX, SASS, GIT',
+    info2: 'Tech Stack- ReactJS(Functional Components, Hooks, JSX), SASS, GIT',
     url: 'https://wikipedia-searchapp.netlify.app',
     repo: 'https://github.com/tbray1/WikipediaSearch', // if no repo, the button will not show up
   },
