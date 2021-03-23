@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 't.jpg',
   paragraphOne:
-    'Hi, My name is Tarius Bray and i recently found a passion for building web applications. Im comfortable working with front end technologies such as HTML, CSS, and JS(Typescript). I have also been using java for 3+ years professionaly.',
+    'Hi, My name is Tarius Bray and I recently found a passion for building web applications. Im comfortable working with front end technologies such as ReactJS, HTML, CSS, and JS. I have also been using java for 3+ years professionaly.',
   paragraphTwo:
     'I have worked as a QA engineer for 4 years, mostly writing automation test suites using java.',
   paragraphThree:
@@ -32,22 +32,22 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project1.png',
-    title: 'Angular NBA cards Application ',
+    title: 'NBA cards Application ',
     info:
-      'In my spare time i really enjoy watching NBA Basketball, So i decided to start working on this NBA Cards application to make it easier for me to keep up with my favorite teams. The application fetches NBA data from an external api and displays the data as cards.',
-    info2: 'Tech Stack- Angular(HttpClientModule), HTML, CSS, GIT',
-    url: 'https://nbacards-ng.netlify.app',
-    repo: 'https://github.com/tbray1/NBACards_AngularApp', // if no repo, the button will not show up
+      'In my spare time I really enjoy watching NBA Basketball, So I decided to start working on this NBA Cards application to make it easier for me to keep up with my favorite teams. The application fetches NBA data from an external api and displays the data as cards.',
+    info2: 'Tech Stack- ReactJS(Hooks, functional components, axios), JSX, CSS, GIT',
+    url: 'https://nba-cards.netlify.app',
+    repo: 'https://github.com/tbray1/NBA_Cards',
   },
   {
     id: nanoid(),
     img: 'project2.png',
-    title: 'Angular Covid-19 Application ',
+    title: 'Wikipedia Search App ',
     info:
-      'Unfortunately coronavirus has had a profound impact on the lives of hundreds of millions of people, while learning Angular i decided to build this application that provides the latest covid-19 statisitcs globally as well as nationally. The data is fetched from an external API and displayed in charts and graphs.',
-    info2: 'Tech Stack- Angular(HttpClientModule, Angular Router), HTML, CSS, GIT',
-    url: 'https://covid-19ng.netlify.app/',
-    repo: 'https://github.com/tbray1/Ng_CovidTracker', // if no repo, the button will not show up
+      'This application takes user input and fetches data from Wikipedia api based on the given input.',
+    info2: 'Tech Stack- ReactJS(Functional Components, Hooks, JSX, SASS, GIT',
+    url: 'https://wikipedia-searchapp.netlify.app',
+    repo: 'https://github.com/tbray1/WikipediaSearch', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
