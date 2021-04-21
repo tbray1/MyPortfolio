@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 't.jpg',
   paragraphOne:
-    'Hi, My name is Tarius Bray and I enjoy building high-quality web applications . Im comfortable working with a range of web technologies such as Liquid, JavaScript, Java, HTML, and CSS.',
+    'Hi, My name is Tarius Bray and I enjoy building high-quality web applications . Im comfortable working with a range of web technologies such as JavaScript, ReactJS, Java, HTML, HTML, and CSS.',
   paragraphTwo:
-    'Although Im new to freelancing I have a deep engineering background as ive been working professionaly as a QA engineer for 5+ years testing complex enterprise web applications. I also have a masters degree in Software Engineering from Kennesaw State University(2020)',
+    'I have a deep engineering background as ive been working professionaly as a QA engineer for 5+ years testing complex enterprise web applications. I also have a masters degree in Software Engineering from Kennesaw State University(2020)',
   paragraphThree:
     'Check out some of my latest work below. Please dont hesitate to reach out if my skills align with your business needs.',
   // if no resume, the button will not show up
