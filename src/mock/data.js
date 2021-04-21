@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Tarius Bray', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Welcome', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -56,8 +56,8 @@ export const projectsData = [
     title: 'Covid Tracker Project',
     info: 'Tech Stack- Angular, HTML, CSS',
     info2: '',
-    url: 'tariusbray.com',
-    repo: 'https://github.com/tbray1/MyPortfolio', // if no repo, the button will not show up
+    url: 'https://covid-19ng.netlify.app/',
+    repo: 'https://github.com/tbray1/Ng_CovidTracker/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
