@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Tarius Bray', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: 'Welcome', // e.g: Welcome to my website
+  description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -19,57 +19,36 @@ export const heroData = {
 export const aboutData = {
   img: 't.jpg',
   paragraphOne:
-    'Hi, My name is Tarius Bray and I enjoy building high-quality web applications . Im comfortable working with a range of web technologies such as JavaScript, ReactJS, Java, HTML, HTML, and CSS.',
+    'Hi, My name is Tarius Bray and Im currently seeking web developement oppurtunitites. Im comfortable working with front end technologies such as ReactJS, HTML, CSS, and JS. I have also been using java for 3+ years professionaly.',
   paragraphTwo:
-    'I have a deep engineering background as ive been working professionaly as a QA engineer for 5+ years testing complex enterprise web applications. I also have a masters degree in Software Engineering from Kennesaw State University(2020)',
+    'I have worked as a QA engineer for 4 years, mostly writing automation test suites using  selenium.',
   paragraphThree:
     'Check out some of my latest work below. Please dont hesitate to reach out if my skills align with your business needs.',
   // if no resume, the button will not show up
 };
+
+// PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'sneaks.png',
-    title: 'Sneaks Shopify Development Store ',
-    info: 'password - 123',
-    url: 'https://4ep34ey1sjym7tf7-56178868394.shopifypreview.com/',
-  },
-  {
-    id: nanoid(),
-    img: 'winewithamber.png',
-    title: 'Website for Handcrafted Wine Maker ',
-    info: 'Tech Stack- HTML, JS and Tailwind CSS ',
-    url: 'https://winewithamber.com',
-    repo: 'https://github.com/tbray1/WineWithAmber', // if no repo, the button will not show up
+    img: 'project1.png',
+    title: 'NBA cards Application ',
+    info: ' The application fetches NBA data from an external api and displays the data as cards.',
+    info2: 'Tech Stack- ReactJS(Hooks, functional components, axios), JSX, CSS, GIT',
+    url: 'https://nba-cards.netlify.app',
+    repo: 'https://github.com/tbray1/NBA_Cards',
   },
   {
     id: nanoid(),
     img: 'project2.png',
     title: 'Wikipedia Search App ',
-    info: 'Tech Stack- ReactJS, SASS, GIT',
+    info:
+      'This application takes user input and fetches data from Wikipedia api based on the given input.',
+    info2: 'Tech Stack- ReactJS(Functional Components, Hooks, JSX, SASS, GIT',
     url: 'https://wikipedia-searchapp.netlify.app',
     repo: 'https://github.com/tbray1/WikipediaSearch', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'corona.png',
-    title: 'Covid Tracker Project',
-    info: 'Tech Stack- Angular, HTML, CSS',
-    info2: '',
-    url: 'https://covid-19ng.netlify.app/',
-    repo: 'https://github.com/tbray1/Ng_CovidTracker/', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project1.png',
-    title: 'NBA cards Application ',
-    info: 'Tech Stack- ReactJS, JSX, CSS, GIT',
-    info2: '',
-    url: 'https://nba-cards.netlify.app',
-    repo: 'https://github.com/tbray1/NBA_Cards',
-  },
 ];
-// PROJECTS DATA
 
 // CONTACT DATA
 export const contactData = {
