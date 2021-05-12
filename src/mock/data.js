@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 't.jpg',
   paragraphOne:
-    'Hi, My name is Tarius Bray and Im currently seeking software developement oppurtunitites. Im comfortable working with front end technologies such as HTML, CSS, JS, ReactJS, and Angular. I also have foundational knowledge of server side technologies such as NodeJS, Express, and SpringBoot, ',
+    "Hi, My name is Tarius Bray and I'm currently seeking software developement oppurtunitites. Im comfortable working with front end technologies such as HTML, CSS, JS, ReactJS, and Angular. I also have foundational knowledge of server side technologies such as NodeJS, Express, and SpringBoot, ",
   paragraphTwo:
-    'I have over 4 years of industy experience at a fortune 50 healthcare company as a QA engineer on an Agile Scrum team , writing Behavior driven(BDD) automation test suites using java(selenium,restassured, Junit) and cucumber to perform front and back end testing for complex web applications.',
+    'I have over 4 years of industy experience at a fortune 50 healthcare company as a QA engineer on an Agile Scrum team , writing Behavior driven(BDD) automation test suites using java(selenium,restassured, Junit) and cucumber to perform front and back end testing for complex web applications .',
   paragraphThree:
-    'In my spare time Im easy going, I enjoy spending time with family, playing video games and watching sports. Please check out some of my latest work below and dont hesitate to reach out if you are looking for a team first, self-starting, even-keeled developer to join your team',
+    "In my spare time I'm easy going, I enjoy spending time with family, playing video games and watching sports. Please check out some of my latest work below and dont hesitate to reach out if you are looking for a team first, self-starting, even-keeled developer to join your team",
   // if no resume, the button will not show up
 };
 
